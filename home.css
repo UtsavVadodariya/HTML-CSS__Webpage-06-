@@ -1,0 +1,379 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    z-index: 5; 
+    position: sticky;
+    background-color: white;
+    top: 0;
+}
+nav a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+}
+nav #a{
+    height: 100%;
+    width: 80px;
+    float: right;
+    border-left: 1px solid gray;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+nav #b{
+    height: 100%;
+    width: 30px;
+    float: right;
+    border-left: 1px solid gray;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 15px;
+}
+nav input{
+    height: 100%;
+    width: 150px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: gray;
+    float: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+
+}
+nav input::placeholder{
+    font-size: 15px;
+}
+nav input:focus{
+    width: 300px;
+    transition: 1s;
+    border: none;
+}
+.d1{
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+.d1 img{
+    height: 620px;
+    width: 100%;
+}
+.d2{
+    height: 300px;
+    width: 40%;
+    position: absolute;
+    top: 300px;
+    left: 180px;
+}
+.d2 h6{
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+    color: #787878;
+}
+.d2 h2{
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px 0px 50px;
+    margin-top: 10px;
+
+}
+.d2 a button{
+    height: 50px;
+    padding: 0px 40px;
+    background-color: #0315ff;
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border: none;
+    transition: 1s;
+
+}
+.d2 a button:hover{
+    background-color: #C60558;
+}
+.d3{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.d4{
+    height: 240px;
+    width: 350px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+#d4{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)) , url(https://preview.colorlib.com/theme/essence/img/bg-img/bg-2.jpg);
+    background-size: cover;
+
+}
+.d4 h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 240px;
+    transition: 1s;
+
+}
+.d4 h1:hover{
+    color: #0315ff;
+}
+#d41{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)) , url(https://preview.colorlib.com/theme/essence/img/bg-img/bg-3.jpg);
+    background-size: cover;
+
+}
+
+#d42{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)) , url(https://preview.colorlib.com/theme/essence/img/bg-img/bg-4.jpg);
+    background-size: cover;
+
+}
+.d5{
+    height: 560px;
+    width: 75%;
+    border: 1px solid white;
+    margin-left: 14%;
+    background-image: url(https://preview.colorlib.com/theme/essence/img/bg-img/bg-5.jpg);
+}
+.d5 h6{
+    font-size: 24px;
+    margin: 0px 0px 10px;
+    color: #dc0345;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 170px;
+    margin-left: 650px;
+}
+.d5 h2{
+    font-size: 60px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 650px;
+}
+.d5 a button{
+    height: 50px;
+    padding: 0px 40px;
+    background-color: #0315ff;
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border: none;
+    transition: 1s;
+    margin-left: 650px;
+    margin-top: 50px;
+
+}
+.d5 a button:hover{
+    background-color: #C60558;
+}
+.d6{
+    height: 600px;
+    width: 75%;
+    margin-left: 14%;
+    margin-top: 80px;
+}
+.d6 h2{
+    font-size: 30px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+}
+.d7{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.d7-1{
+    height: 100%;
+    width: 24%;
+    margin-left: 1%;
+}
+.d7-2{
+    width: 100%;
+    height: 360px;
+    background-image: url(https://preview.colorlib.com/theme/essence/img/product-img/product-1.jpg);
+    background-size: 100% 100%;
+    transition: 1s;
+}
+.d7-2:hover{
+    background-image: url(https://preview.colorlib.com/theme/essence/img/product-img/product-2.jpg);
+}
+.d7-2-1:hover{
+    background-image: url(https://preview.colorlib.com/theme/essence/img/product-img/product-3.jpg);
+}
+.d7-2-2:hover{
+    background-image: url(https://preview.colorlib.com/theme/essence/img/product-img/product-4.jpg);
+}.d7-2-3:hover{
+    background-image: url(https://preview.colorlib.com/theme/essence/img/product-img/product-5.jpg);
+}
+.d7-2-1{
+    width: 100%;
+    height: 360px;
+    background-image: url(https://preview.colorlib.com/theme/essence/img/product-img/product-2.jpg);
+    background-size: 100% 100%;
+    transition: 1s;
+
+}
+.d7-2-2{
+    width: 100%;
+    height: 360px;
+    background-image: url(https://preview.colorlib.com/theme/essence/img/product-img/product-3.jpg);
+    background-size: 100% 100%;
+    transition: 1s;
+
+}
+.d7-2-3{
+    width: 100%;
+    height: 360px;
+    background-image: url(https://preview.colorlib.com/theme/essence/img/product-img/product-4.jpg);
+    background-size: 100% 100%;
+    transition: 1s;
+
+}
+
+.d7-3{
+    width: 100%;
+    height: 90px;
+    line-height: 25px;
+}
+.d7-3 span{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #787878;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.d7-3 h6{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #222222;
+}
+.d7-3 p{
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+
+}
+.d7-0{
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #0315ff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    height: 23px;
+
+}
+.d7-01{
+    padding: 0px 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #dc0345;
+    border: none;
+    color: white;
+    font-weight: bold;
+    height: 23px;
+}
+
+.d8{
+    height: 150px;
+    width: 100%;
+    background-color: #F5F7F9;
+    margin-top: 50px;
+    display: flex;
+}
+.d9{
+    height: auto;
+    width: 16.66%;
+    align-items: center;
+    align-self:center;
+}
+.d9 img{
+    margin-top: 10%;
+    height: auto;
+}
+footer{
+    height: 400px;
+    width: 100%;
+    background-color: #252525;
+}
+.f1{
+    height: 300px;
+    width: 70%;
+    margin-left: 14%;
+    display: flex;
+}
+.f2{
+    height: 100%;
+    width: 45.33%;
+}
+.f2 a{
+    text-decoration: none;
+    color: gray;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    transition: 1s;
+}
+.f2 a:hover{
+    color: white;
+}
+.f2 ul li{
+    list-style: none;
+    color: gray;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    transition: 1s;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.f2 ul li:hover{
+    color: white;
+}
+.f2 h5{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.f2 input{
+    border: none;
+    border-bottom:1px solid white;
+    background-color: transparent;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    height: 50px;
+    width: 250px;
+}
+.r{
+    margin-left: -20px;
+}
+.f{
+    margin-left: 20px;
+}
+footer p{
+    color: #787878;
+    font-family: 'Poppins', sans-serif;
+
+}
+footer p small{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
